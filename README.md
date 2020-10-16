@@ -1,1 +1,76 @@
+
 # fruits
+<!DOCTYPE html>
+<html>
+<head>
+<title>FRIUTS</title>
+<style>
+body{
+            background-color: #BC8F8F;
+            }
+.div{ 
+             background-color:#bc8f8f;
+              text-align : center;
+              text-color: #ffb6c1;
+          }
+.div1{ 
+             background-color:#00bfff;
+              text-align : center;
+              text-color: #b0e0e6;
+          }
+
+.look{
+                display: flex;
+                 flex-wrap:   wrap;
+                 flex-flow: row flow;
+                 justify-content: space around ;
+                 padding : 60px;
+}
+img{
+         height : 350px;
+         width: 300px;
+         margin: 20px;
+         transition : height 0.5s, width 0.5s, transform 0.45s;
+         box-shadow: 10px 10px 10px #800000;
+       }
+
+img:hover { 
+                          width: 200px;
+                           height: 200 px;
+                           transform: scale(1.3);
+                           transform:  rotate(250deg);
+                  }
+.div1:hover{
+                       transform: scale(1.3);
+}
+#i:hover{
+width: 400px;
+height: 140;
+transform: rotate(111deg);
+}
+h1{s
+      text-align: center;
+      color: #006400;
+      }
+h2{
+           text-align : center;
+         color: red;
+}
+</style>
+<body>
+<div class="div">
+<h1 id="i">FRUITS DISPLAY</h1>
+</div>
+<div class="look">
+<img src="a.jpg">
+<img src="b.jpeg">
+<img src="c.jpg">
+<img src="d.jpg">
+<img src="e.jpeg">
+<img src="f.jpeg">
+</div>
+<div class= "div1">
+<h2>PRIYANKA KUMARI HEMBRAM </br>ROLLNO:- 1906103</br>
+</div>
+</body>
+</html>
